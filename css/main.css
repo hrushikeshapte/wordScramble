@@ -1,0 +1,29 @@
+
+.heading{
+    font-size: 15px;
+    color: orangered;
+}
+
+.word{
+    background-color: #000000;
+    width: 100%;
+    min-height: 900px;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.tile {
+    background-image: url(https://dl.dropboxusercontent.com/s/knhgq8ycjm4i6de/scrabble_tile.png);
+    width: 66px;
+    height: 65px;
+    display: inline-block;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 5px;
+
+}
+
+.answer{
+    margin-top: 40px;
+}

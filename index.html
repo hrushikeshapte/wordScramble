@@ -11,15 +11,20 @@
     <title>Word Scramble</title>
 </head>
 <body>
-    <div class="word" ng-app="wordScramble" ng-controller="mainController">
-        <div>
-        {{scrambled}}
-    </div>
 
-    <input type="text" class="answer-text"/>
-    <a href= "#" ng-click="answer()">
-        <button class="btn-primary">Answer</button>
-    </a>
+     <h2 class="text-center"> Word Scramble <em class="heading">by Hrushikesh Apte</em></h2>
+
+     <div class="word text-center" ng-app="wordScramble" ng-controller="mainController">
+        <div class="tile" ng-repeat = "letter in scrambled track by $index">
+        {{letter}}
+        </div>
+
+    <div class = "answer">
+        <input type="text" class="answer-text"/>
+        <a href= "#" ng-click="answer()">
+            <button class="btn-primary">Answer</button>
+        </a>
+    </div>
 
   </div>
 
