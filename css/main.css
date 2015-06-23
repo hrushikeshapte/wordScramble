@@ -1,10 +1,10 @@
 
-.heading{
+.heading {
     font-size: 15px;
     color: orangered;
 }
 
-.word{
+.word {
     background-color: #000000;
     width: 100%;
     min-height: 900px;
@@ -24,15 +24,15 @@
 
 }
 
-.answer{
+.answer {
     margin-top: 40px;
 }
 
-.score-information{
+.score-information {
     margin-top: 40px;
 }
 
-.score{
+.score {
     color: dodgerblue;
     margin: 25px;
 }
