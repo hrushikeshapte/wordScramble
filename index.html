@@ -14,7 +14,7 @@
 
      <h2 class="text-center"> Word Scramble <em class="heading">by Hrushikesh Apte</em></h2>
 
-     <div class="word text-center" ng-app="wordScramble" ng-controller="mainController">
+     <div class="word text-center" ng-app="wordScramble" ng-controller="mainController" ng-init = "init()">
         <div class="tile" ng-repeat = "letter in scrambled track by $index">
         {{letter}}
         </div>
@@ -24,6 +24,14 @@
         <a href= "#" ng-click="answer()">
             <button class="btn-primary">Answer</button>
         </a>
+    </div>
+
+    <div class = "score-information">
+        <a href= "#" ng-click="reset()">
+            <button class="btn-primary">Reset Score</button>
+        </a>
+
+        <span class="score">Score : {{score}}</span>
     </div>
 
   </div>
