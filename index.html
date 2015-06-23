@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.2.js" type="application/javascript"></script>
@@ -8,33 +9,34 @@
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
     <script type="text/javascript" src="js/mainController.js"></script>
     <link rel="stylesheet" href="css/main.css">
+
     <title>Word Scramble</title>
 </head>
 <body>
 
-     <h2 class="text-center"> Word Scramble <em class="heading">by Hrushikesh Apte</em></h2>
+<h2 class="text-center"> Word Scramble <em class="heading">by Hrushikesh Apte</em></h2>
 
-     <div class="word text-center" ng-app="wordScramble" ng-controller="mainController" ng-init = "init()">
-        <div class="tile" ng-repeat = "letter in scrambled track by $index">
+<div class="word text-center" ng-app="wordScramble" ng-controller="mainController" ng-init="init()">
+    <div class="tile" ng-repeat="letter in scrambled track by $index">
         {{letter}}
-        </div>
+    </div>
 
-    <div class = "answer">
+    <div class="answer">
         <input type="text" class="answer-text"/>
-        <a href= "#" ng-click="answer()">
+        <a href="#" ng-click="answer()">
             <button class="btn-primary">Answer</button>
         </a>
     </div>
 
-    <div class = "score-information">
-        <a href= "#" ng-click="reset()">
+    <div class="score-information">
+        <a href="#" ng-click="reset()">
             <button class="btn-primary">Reset Score</button>
         </a>
 
         <span class="score">Score : {{score}}</span>
     </div>
 
-  </div>
+</div>
 
 </body>
 </html>
