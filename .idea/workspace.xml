@@ -41,19 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="17" selection-start="563" selection-end="563" vertical-scroll-proportion="0.9081081" vertical-offset="276" max-vertical-offset="731">
+            <state line="36" column="17" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainController.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mainController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/mainController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="58" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1105">
+            <state line="57" column="10" selection-start="1837" selection-end="1837" vertical-scroll-proportion="2.7142856" vertical-offset="0" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/mainController.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/mainController.js" />
       </list>
     </option>
   </component>
@@ -236,13 +236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/mainController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="58" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="43" selection-start="1335" selection-end="1335" vertical-scroll-proportion="-5.3846154" vertical-offset="421" max-vertical-offset="765">
@@ -252,7 +245,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="17" selection-start="563" selection-end="563" vertical-scroll-proportion="0.9081081" vertical-offset="276" max-vertical-offset="731">
+        <state line="36" column="17" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="10" selection-start="1837" selection-end="1837" vertical-scroll-proportion="2.7142856" vertical-offset="0" max-vertical-offset="1309">
           <folding />
         </state>
       </provider>

@@ -6,7 +6,7 @@ app.controller("mainController", function ($scope, $http) {
 
     $scope.init = function(){
         displayLetters();
-    }
+    };
 
     var displayLetters = function(){
     var currentUrl = "http://api.wordnik.com:80/v4/words.json/randomWord?hasDictionaryDef=false&minCorpusCount=0&maxCorpusCount=-1&minDictionaryCount=1&maxDictionaryCount=-1&minLength=5&maxLength=-1&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5";
@@ -28,14 +28,26 @@ app.controller("mainController", function ($scope, $http) {
             }
             return string;
 
-        }
+        };
 
         $scope.scrambled = word.sort();
 
+        var anagram = function(string1, string2) {
+            var y = string1.split("").sort().join(""),
+                z = string2.split("").sort().join("");
+           if(z === y){
+               return true;
+           }
+
+            else{
+               return false;
+           }
+        };
+
         $scope.answer = function (){
             var answerText = $(".answer-text").val();
-
-            if(answerText == word){
+            var checkAnagram = anagram(answerText,word);
+            if(answerText == word || checkAnagram == true){
                 alert("Correct Answer");
                 $scope.score += 1;
                 displayLetters();
@@ -43,7 +55,7 @@ app.controller("mainController", function ($scope, $http) {
             else{
                 alert("Incorrect Answer , Please try again");
             }
-        }
+        };
 
         $scope.reset = function (){
             $scope.score = 0;
